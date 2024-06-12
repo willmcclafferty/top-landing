@@ -1,0 +1,114 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    justify-content: flex-end;
+    flex: 1;
+    color: #f9faf8;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    flex: 1;
+    color: purple;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.container {
+    background-color: #1f2937;
+    padding: 15px;
+}
+
+.title {
+    display: flex;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.subtitle {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+img {
+    display: flex;
+    max-width: 175px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.opportunity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image {
+    border: 5px solid #3882f6; 
+    max-width: 175px;
+    border-radius: 25px;
+}
+
+.container1 {
+    max-width: 100%;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    font-weight: 900px;
+    font-size: 36px;
+    padding: 20px;
+}
+
+.one, .two, .three, .four {
+    border: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.container2 {
+    background-color: #e5e7eb;
+}
+
+.person {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30%;
+    padding-bottom: 20px;
+}
+
+.quote {
+    display: flex;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    margin: 20px;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
